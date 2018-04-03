@@ -20,7 +20,7 @@ var volumeControl = document.querySelector(".volumeControl");
 var volumeProgress = document.querySelector(".volumeProgress");
 var content = document.querySelector(".content");
  showLyric.onclick = function () {
-
+        content.style.transition = "opacity 1s";
         if(artistImg.style.opacity == "0.5"){
             content.style.opacity=0;
             artistImg.className = "artistImg_1";
@@ -221,15 +221,18 @@ function getlyric() {
                 console.log(lyricArray[mm]);
 
             }
-                if(artistImg.className="artistImg") {
+                    if(artistImg.className == "artistImg"){
+                        content.style.transition = "none";
+                        content.style.opacity=0;
 
-                }
-            for(var l=0;l<lyricArray.length;l++) {
-                let a = document.createElement("p");
-                a.innerHTML = lyricArray[l];
-                content.appendChild(a);
+                    }
+                    for (var l = 0; l < lyricArray.length; l++) {
+                        let a = document.createElement("p");
+                        a.innerHTML = lyricArray[l];
+                        content.appendChild(a);
 
-            }
+                    }
+
 
 
 
