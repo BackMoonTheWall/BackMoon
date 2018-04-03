@@ -65,30 +65,62 @@
     display: inline;
 }
 
-.preSong,.playSong,.nextSong,.pauseSong{
+
+
+
+
+.playSong,.nextSong,.pauseSong{
    bottom: 0;
     position: absolute;
     width: 20px;
     height: 20px;
     border-radius: 10px;
-    background: #414141;
+
+    overflow: auto;
 
     /*font-size: 20px;*/
 
 
 
 }
-.preSong{
+.showLyric{
+    bottom: 0;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    overflow: auto;
+    background: none;
     left: 0;
+    background-image: url(歌词.png) ;
+
+    background-repeat:no-repeat;
+    background-size:cover;
+
 }
+
 .playSong,.pauseSong{
     left: 63px;
 }
 .nextSong{
+    overflow: auto;
     left: 132px;
+
+    background-image: url(下一首.png);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
-
-
+.playSong{
+    border-radius: 0;
+    background-image: url(播放.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.pauseSong{
+    border-radius: 0;
+    background-image: url(暂停.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 
 
 

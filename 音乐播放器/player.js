@@ -1,6 +1,6 @@
 var totalTime ;
 var tp=0;
-var preSong = document.querySelector(".preSong");
+var showLyric = document.querySelector(".showLyric");
 
 var playSong = document.querySelector(".playSong");
 var nextSong = document.querySelector(".nextSong");
@@ -19,7 +19,7 @@ var volume = document.querySelector(".volume");
 var volumeControl = document.querySelector(".volumeControl");
 var volumeProgress = document.querySelector(".volumeProgress");
 var content = document.querySelector(".content");
-    preSong.onclick = function () {
+ showLyric.onclick = function () {
 
         if(artistImg.style.opacity == "0.5"){
             content.style.opacity=0;
@@ -136,7 +136,7 @@ function setProgress(num) {
 }
 
 function getsong() {
-
+    playSong.className="pauseSong";
         content.innerHTML = "";
 
     window.clearInterval(window.temp);
