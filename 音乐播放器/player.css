@@ -9,8 +9,6 @@
 
 
 
-    background-repeat:no-repeat;
-    background-size:cover;
 
 }
 
@@ -281,9 +279,6 @@
 
     overflow-y: hidden;
     overflow-y: scroll;
-
-
-
 }
 .artistImg_1{
 
@@ -300,12 +295,6 @@
     background-repeat:no-repeat;
     background-size:cover;
 
-}
-.neww{
-
-    position: absolute;
-    top:20px;
-    left:20px;
 }
 .outer-lyric,.content {
     width: 200px; height: 200px;
@@ -328,6 +317,14 @@
 }
 .content{
     transition: opacity 1s;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 12px;
+}
+.content_1{
+    width: 200px;
+    height: 200px;
     position: relative;
     text-align: center;
     padding-top: 50px;

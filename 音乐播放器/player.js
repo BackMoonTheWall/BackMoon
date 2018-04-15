@@ -19,7 +19,13 @@ var volume = document.querySelector(".volume");
 var volumeControl = document.querySelector(".volumeControl");
 var volumeProgress = document.querySelector(".volumeProgress");
 var content = document.querySelector(".content");
-getsong();
+window.onload=function (){
+    $(".songname").fadeOut("fast");
+    $(".songArtist").fadeOut("fast");
+    $(".artistImg").fadeOut("fast");
+    $(".currentTime").fadeOut("fast");
+    getsong();
+};
  showLyric.onclick = function () {
         content.style.transition = "opacity 1s";
         if(artistImg.style.opacity == "0.5"){
@@ -56,7 +62,7 @@ getsong();
     };
     nextSong.onclick = function () {
 
-        artistImg.className = "artistImg";
+
 
         $(".songname").fadeOut("fast");
         $(".songArtist").fadeOut("fast");
@@ -222,10 +228,13 @@ function getlyric() {
                 console.log(lyricArray[mm]);
 
             }
-                    if(artistImg.className == "artistImg"){
+                    if(artistImg.className=="artistImg"){
                         content.style.transition = "none";
                         content.style.opacity=0;
 
+                    }
+                    else{
+                        content.style.opacity=1;
                     }
                     for (var l = 0; l < lyricArray.length; l++) {
                         let a = document.createElement("p");
@@ -233,15 +242,7 @@ function getlyric() {
                         content.appendChild(a);
 
                     }
-
-
-
-
-
         }
-
-
-
     })
 }
 
