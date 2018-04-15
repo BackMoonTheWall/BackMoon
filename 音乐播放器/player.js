@@ -19,6 +19,7 @@ var volume = document.querySelector(".volume");
 var volumeControl = document.querySelector(".volumeControl");
 var volumeProgress = document.querySelector(".volumeProgress");
 var content = document.querySelector(".content");
+getsong();
  showLyric.onclick = function () {
         content.style.transition = "opacity 1s";
         if(artistImg.style.opacity == "0.5"){
