@@ -1,6 +1,6 @@
 var totalTime ;
 var tp=0;    //音量状态码
-var channelId=188;   //FM频道号
+var channelId=7;   //FM频道号
 var showLyric = document.querySelector(".showLyric");
 var playSong = document.querySelector(".playSong");
 var nextSong = document.querySelector(".nextSong");
