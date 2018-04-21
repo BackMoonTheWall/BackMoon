@@ -1,5 +1,5 @@
 # 项目说明
- ## 1.基于豆瓣FM API的原创在线音乐播放器V1.1
+ ## 1.原创在线音乐播放器V1.1
 ### 效果展示
 - [点我预览](https://a724877192.github.io/BackMoon/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/player.html)
 (建议使用chorme打开)
