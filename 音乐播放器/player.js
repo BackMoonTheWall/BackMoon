@@ -20,6 +20,7 @@ var volumeControl = document.querySelector(".volumeControl");
 var volumeProgress = document.querySelector(".volumeProgress");
 var content = document.querySelector(".content");
 var currentChannel=document.querySelector(".currentChannel");
+document.write("最后更新时间: " + document.lastModified + "")；
 window.onload=function (){
     $(".songname").fadeOut("fast");
     $(".songArtist").fadeOut("fast");
