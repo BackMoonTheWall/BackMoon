@@ -22,7 +22,7 @@ var content = document.querySelector(".content");
 var currentChannel=document.querySelector(".currentChannel");
 
 window.onload=function (){
-    alert("最后更新时间: " + document.lastModified + "")；
+    document.write("最后更新时间: " + document.lastModified + "");
     $(".songname").fadeOut("fast");
     $(".songArtist").fadeOut("fast");
     $(".artistImg").fadeOut("fast");
