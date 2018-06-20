@@ -1,0 +1,178 @@
+{
+    "result": {
+        "totalNumber": 770574,
+        "totalAmount": 7.3736470172721E10,
+        "date_str": "20180524162230",
+        "streamMax": [{
+            "strKaiPiaoFang": "晶澳（邢台）太阳能有限公司",
+            "strKaiPiaoFangCode": "911305013364148801",
+            "strShouPiaoFang": "山东丰时能源工程有限公司",
+            "strShouPiaoFangCode": "9137131133466590XE",
+            "strShouPiaoFangZoneCode": "54",
+            "dblAmount": 1433268.0,
+            "strtKaiPiaoFangZoneCode": "33"
+        }],
+        "zone_rank": "12#223456#3244",
+        "zonelist": [
+            {
+                "zonecode": "11",
+                "number": 1079,
+                "amount": 4.92198517294E7
+            },
+            {
+                "zonecode": "12",
+                "number": 6035,
+                "amount": 8.6358132869E7
+            },
+            {
+                "zonecode": "13",
+                "number": 161609,
+                "amount": 2.22005685240943E10
+            },
+            {
+                "zonecode": "14",
+                "number": 220,
+                "amount": 1.34077815699E7
+            },
+            {
+                "zonecode": "15",
+                "number": 18,
+                "amount": 363587.99
+            },
+            {
+                "zonecode": "21",
+                "number": 201,
+                "amount": 1.62458960699E7
+            },
+            {
+                "zonecode": "22",
+                "number": 40,
+                "amount": 214919.7
+            },
+            {
+                "zonecode": "23",
+                "number": 40,
+                "amount": 684818.44
+            },
+            {
+                "zonecode": "24",
+                "number": 1,
+                "amount": 100000.0
+            },
+            {
+                "zonecode": "31",
+                "number": 5365,
+                "amount": 1.751333358177E8
+            },
+            {
+                "zonecode": "32",
+                "number": 2416,
+                "amount": 1.818431734683E8
+            },
+            {
+                "zonecode": "33",
+                "number": 4814,
+                "amount": 4.719665399478E8
+            },
+            {
+                "zonecode": "34",
+                "number": 114,
+                "amount": 287347.97
+            },
+            {
+                "zonecode": "35",
+                "number": 3210,
+                "amount": 6.7855865408E7
+            },
+            {
+                "zonecode": "36",
+                "number": 390,
+                "amount": 9.13763633097E7
+            },
+            {
+                "zonecode": "37",
+                "number": 410,
+                "amount": 6.87706921098E7
+            },
+            {
+                "zonecode": "41",
+                "number": 367,
+                "amount": 1.990563116E7
+            },
+            {
+                "zonecode": "42",
+                "number": 208,
+                "amount": 6104991.2499
+            },
+            {
+                "zonecode": "43",
+                "number": 105,
+                "amount": 6854253.36
+            },
+            {
+                "zonecode": "44",
+                "number": 539190,
+                "amount": 4.53117857567661E10
+            },
+            {
+                "zonecode": "45",
+                "number": 155,
+                "amount": 663089.7999
+            },
+            {
+                "zonecode": "46",
+                "number": 33,
+                "amount": 1064516.4398
+            },
+            {
+                "zonecode": "50",
+                "number": 723,
+                "amount": 6.16476340392E7
+            },
+            {
+                "zonecode": "51",
+                "number": 1099,
+                "amount": 1.88089781199E7
+            },
+            {
+                "zonecode": "52",
+                "number": 4387,
+                "amount": 2.45381433399E7
+            },
+            {
+                "zonecode": "53",
+                "number": 121,
+                "amount": 3726849.08
+            },
+            {
+                "zonecode": "54",
+                "number": 1,
+                "amount": 640.0
+            },
+            {
+                "zonecode": "61",
+                "number": 653,
+                "amount": 3.39173689298E7
+            },
+            {
+                "zonecode": "62",
+                "number": 1915,
+                "amount": 1.660702808591E8
+            },
+            {
+                "zonecode": "63",
+                "number": 13,
+                "amount": 497987.0
+            },
+            {
+                "zonecode": "65",
+                "number": 35642,
+                "amount": 4.656487222007E9
+            }
+        ]
+    },
+    "error": {
+        "code": 1,
+        "message": "success"
+    }
+}
