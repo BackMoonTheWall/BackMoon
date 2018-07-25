@@ -3,8 +3,8 @@
  ## 1.基于echarts.js的在线云*票可视化系统
 
 ### 效果展示
-- [点我预览](https://a724877192.github.io/BackMoon/在线数据可视化系统/index.html)
-(建议使用chorme打开)
+- [点我预览](https://BackMoonTheWall.github.io/BackMoon/在线数据可视化系统/index.html)
+(强烈建议使用chorme打开)
 ### 功能介绍
 - 对全国开票、收票的个人/公司的瞬时/当日数据进行处理显示在左右两侧面板，总*金额显示在头部
 - 对开票金额地区在地图上使用effectScatter+label展示信息，并用”轮播图”轮流突出
