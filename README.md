@@ -21,8 +21,8 @@
 - 有机会将使用React再重写一遍，相信性能和后续管理迭代会更好
  ## 2.原创在线音乐播放器V1.1
 ### 效果展示
-- [点我预览](https://a724877192.github.io/BackMoon/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/player.html)
-(建议使用chorme打开)
+- [点我预览](https://BackMoonTheWall.github.io/BackMoon/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/player.html)
+(强烈建议使用chorme打开)
 ### 功能介绍
 - 音乐风格频道展示与切换 （V1.1）
 - 歌曲歌手基本信息展示
